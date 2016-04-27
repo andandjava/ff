@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Select Month &amp; Year"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_size"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#3ab5e0" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/subyear"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#3ab5e0" />
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#3ab5e0" />
+
+            <TextView
+                android:id="@+id/addyear"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/submonth"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#3ab5e0" />
+
+            <TextView
+                android:id="@+id/month"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#3ab5e0" />
+
+            <TextView
+                android:id="@+id/addmonth"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/medium_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#3ab5e0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.50"
+            android:background="#ffffff"
+            android:text=" Ok "
+            android:textAllCaps="false"
+            android:textSize="@dimen/big_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="fill_parent"
+                android:background="#3ab5e0" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dialogButtonCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.50"
+            android:background="#ffffff"
+            android:text=" Cancel "
+            android:textAllCaps="false"
+            android:textSize="@dimen/big_size" />
+    </LinearLayout>
+
+</LinearLayout>

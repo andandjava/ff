@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.falconpack.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="22"
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+          android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="RegistrationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="LeaveSummaryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ContactDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="EditContactDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ApplyLeaveActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="PaySlipsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ProductDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="CorporatePoliciesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="HolidayCalendarActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="LeaveDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="EmployeeGrievancesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="DocumentsViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+</manifest>

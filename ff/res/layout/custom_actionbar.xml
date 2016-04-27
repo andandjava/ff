@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/actionbar_bg" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/actionbar_bg" >
+
+        <LinearLayout
+            android:id="@+id/ll_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/rightlayout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/app_name"
+                android:gravity="center"
+                android:padding="2dp"
+                android:src="@drawable/menu_white" />
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/back_arrow"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:paddingLeft="3dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_size"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:id="@+id/ll_left1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@drawable/header_white_bg"
+                android:gravity="center_vertical|left"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/menu1"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center_vertical|left"
+                    android:padding="2dp"
+                    android:src="@drawable/menu_gray" />
+
+                <ImageView
+                    android:id="@+id/title_img"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:contentDescription="@string/app_name"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/logo"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:background="@color/actionbar_bg" >
+
+                <ImageView
+                    android:id="@+id/notificatin_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="15dp"
+                    android:src="@drawable/notification"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/notifictn_count_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/red_circle"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text=""
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rightlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp" >
+
+            <ImageView
+                android:id="@+id/filter_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/search_img"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="2dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/filter"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/search_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/search"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

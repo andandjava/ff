@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/holi_cal_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/lightgreen_border"
+        android:inputType="textCapSentences"
+        android:text="@string/holiday_cal"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cor_polic_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lightgreen_border"
+        android:inputType="textCapSentences"
+        android:text="@string/cor_polic"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pay_slips_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lightgreen_border"
+        android:inputType="textCapSentences"
+        android:text="@string/pay_slips"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emp_grievance_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lightgreen_border"
+        android:inputType="textCapSentences"
+        android:text="@string/emp_grievance"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

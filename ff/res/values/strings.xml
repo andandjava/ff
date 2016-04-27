@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Falconpack</string>
+    <string name="mailId">employee1@falconpack.ae</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login screen -->
+
+    <string name="rember_me">Remember me</string>
+    <string name="forgot_pwd">Forgot Password ?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="newsignup"><u>Sign up for FalconPack</u></string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="youarea">You are a</string>
+    <string name="emp">Empolyee</string>
+    <string name="email">Email ID</string>
+    <string name="pwd">Password</string>
+    <string name="con_pwd">Confirm password</string>
+    <string name="department">Department</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <!-- Dash board -->
+    <string name="leave_mgmt">Leave Management</string>
+    <string name="prd_mgmt">Products Management</string>
+    <string name="doc_mgmt">Document Management</string>
+    <string name="hrd">HRD</string>
+    <string name="exp_mgmt">Expense Management</string>
+    <string name="view_leave">View Leave Summary</string>
+    <string name="apply_leave">Apply for Leave</string>
+    <string name="from">From </string>
+    <string name="to">To </string>
+    <string name="leavetype">Leave Type</string>
+    <string name="subject">Subject</string>
+    <string name="reportsTo">Reports to: Sr. manager</string>
+    <string name="description">Description</string>
+    <string name="numof_leaves">Total no.of Leaves : </string>
+    <string name="numof_leaves_availed">No.of Leaves availed : </string>
+    <string name="leaves_available">Leaves available : </string>
+    <string name="view">View</string>
+    <string name="view_catalogue">View Catalogue</string>
+    <string name="finance">Finance</string>
+    <string name="marketing">Marketing</string>
+    <string name="holiday_cal">Holiday Calendar</string>
+    <string name="cor_polic">Corporate Policies</string>
+    <string name="pay_slips">Payslips</string>
+    <string name="emp_grievance">Employee Grievance</string>
+    <string name="container_desc">Clear Container \nIdeal for storing leftovers and cut fruit and vegetables, these bowls come in a unique shape which has a squate top and round bottom to store mazimum amount of food &#8230;</string>
+    <string name="total">TOTAL</string>
+    <string name="add">Add</string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="las_vegas">Las Vegas Trip - Nov 2013</string>
+    <string name="desc">Description comes here</string>
+    <string name="view_bill">View Bill</string>
+    <string name="upload_bill">Upload Bill </string>
+    <string name="update">Update</string>
+    <string name="catalogue">Catalogue</string>
+    <string name="holiday_calendar">Holiday Calendar</string>
+    <string name="holi_cal_title">LIST OF HOLIDAYS 2015</string>
+    <string name="day_date">Date \u0026 Day</string>
+    <string name="occasion">Occasion</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="ok">OK</string>
+
+    <!-- menu -->
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="exit">Exit</string>
+    <string name="edit">Edit</string>
+    <string name="mobile">Mobile : </string>
+    <string name="address">Address : </string>
+    <string name="contact_details">Contact Details</string>
+    <string name="edit_contact_details">Edit Contact Details</string>
+    <string name="falcon_summary">Falconpack the flagship company of the Falcon Group, is the leading manufacturer and distributor of disposable packaging products for the food service and consumer markets in the Middle East.\n Established in 1992, the company Falcon Pack has emerged to be a market leader in each of its segments offering with an overwhelming range of  products. This Vision is built on the foundation of uncompromising principles of:</string>
+    <string name="contact_summary"><u><b>Reach Us</b></u> \n\n<u><b> HeadOffice.Sharjah UAE </b></u>\n \n Working House: 7:30&#8211;)5:00 Sun-Thu \n P.O Box 5852 Sharjah \n <b>Tel:</b>+97165340340 \n <b>Fax:</b>+97165340909 \n <b>Mail:</b>marketing@falconpack.ae \n <b>Web:</b>www.falconpack.com \n \n <b><u>Branches Of GCC</u></b> \n<b> KSA Jeddah </b>\n<b> Tel:</b>+96626527388 \n <b>Fax:</b>+96626521866 \n <b>Address:</b>Jeddah St.60|BN ALALM \n Tower,2nd floor, Office no:28 \n\n <b>Oman</b>\n \n <b>Tel:</b> +96824503412 \n <b>Fax:</b> +96824503795 \n <b>Address: </b>Jeddah street60|BN ALALM \n Tower,2nd floor,office#28 \n </string>
+    <string name="contact_address"> Falconpack \nMaliha Road(Sharjah-kalba Road) \nSharjah, United Arab Emirates</string>
+    <string name="reach_us"><u><b>Reach Us</b></u></string>
+    <string name="zero">No Notifications Found</string>
+    <string name="zero_pay">No PaySlips Found</string>
+    <string name="submit">Submit</string>
+    <string name="grievance">Enter your grievance</string>
+    <!-- Fragment Names -->
+
+    <string name="dashboadfrag">DashBoadFragment</string>
+    <string name="leavemangfrag">LeaveManagmentFragment</string>
+    <string name="productmangfrag">ProductManagmentFragment</string>
+    <string name="docmangfrag">DocumentManagmentFragment</string>
+    <string name="hrdfrag">HRDFragment</string>
+    <string name="expsmangfrag">ExpenseManagmentFragment</string>
+    <string name="aboutfrag">AboutFragment</string>
+    <string name="contactfrag">ContactFragment</string>
+    <string name="edtaccdetailsfrag">EditAccountDetailsFragment</string>
+    <string name="notificationfrag">NotificationsFragment</string>
+    <string name="leavenotificationfrag">LeaveNotificationsFragment</string>
+    <string name="tripexpfrag">TripExpensesFragment</string>
+    <string name="tripexpdetailsfrag">TripExpensesDetailsFragment</string>
+    <string name="marketingfrag">Marketing Fragment</string>
+    <string name="title_activity_android_dialog">AndroidDialog</string>
+    <string name="dialog_note">Note: Documents can share only to registered email-ids</string>
+    <string name="dialog_share">Share</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="expenses">Expenses :</string>
+    <string name="trips">Trips : </string>
+
+    <!-- month and year -->
+
+    <string name="alert_dialog_title">Please Select</string>
+    <string name="positive_button_text">Select</string>
+    <string name="negative_button_text">Cancel</string>
+
+    <!-- leave details -->
+    <string name="status">Status</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="applied_date">Applied Date </string>
+    <string name="num_of_days">Number Of Days</string>
+    <string name="approved_by">Approved by</string>
+    <!-- <string name="contactfrag">ContactFragment</string> -->
+
+
+    <!-- expense details -->
+
+    <string name="tripnameTxt">TRIP NAME : </string>
+    <string name="tropTitle">Enter Trip Name Here</string>
+    <string name="tripname">Trip Name</string>
+    <string name="expsAmt">INR 1090.90</string>
+    <string name="expTypeTxt">EXPENSES TYPE : </string>
+    <string name="expTypeEdt">Air Fare - Change / Cancel</string>
+    <string name="expDesc">DESCRIPTION : </string>
+    <string name="date">DATE </string>
+    <string name="dateFormat">MM-dd-yyyy</string>
+    <string name="amount">AMOUNT</string>
+    <string name="amt">10000.00</string>
+    <string name="currency">CURRENCY </string>
+    <string name="pay_mode">PAYMENT MODE</string>
+    <string name="cur">ARS</string>
+    <string name="card">Credit Card</string>
+    <string name="container">Container</string>
+    <string name="reachus">Reach Us</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/header_include" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rr_datehdr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_list_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/holi_cal_title"
+            android:textColor="#434343"
+            android:textSize="@dimen/big_size" />
+
+        <LinearLayout
+            android:id="@+id/ll_dateheader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.6"
+                android:paddingBottom="4dp"
+                android:text="@string/day_date"
+                android:textColor="@color/dark_hash"
+                android:textSize="@dimen/medium_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_occasion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="left"
+                android:paddingBottom="4dp"
+                android:text="@string/occasion"
+                android:textColor="@color/dark_hash"
+                android:textSize="@dimen/medium_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/border_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#434343" />
+
+    <ListView
+        android:id="@+id/holiday_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#C8C8C8"
+        android:dividerHeight="0.1dp" />
+
+</LinearLayout>

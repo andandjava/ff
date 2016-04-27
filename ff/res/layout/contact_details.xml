@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility="gone">
+
+        <include layout="@layout/header_include" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_left"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="@string/mobile"
+            android:textColor="@color/drawer_bg"
+            android:textSize="@dimen/medium_size" />
+
+        <TextView
+            android:id="@+id/tv_mobile_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:padding="10dp"
+            android:text="5626158961"
+            android:textColor="@color/actionbar_bg"
+            android:textSize="@dimen/medium_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_mobile"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:text="@string/address"
+            android:textColor="@color/drawer_bg"
+            android:textSize="@dimen/medium_size" />
+
+        <TextView
+            android:id="@+id/tv_address_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:padding="10dp"
+            android:text="@string/contact_address"
+            android:textColor="@color/actionbar_bg"
+            android:textSize="@dimen/medium_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ll_address"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lightgreen_border"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/edit"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

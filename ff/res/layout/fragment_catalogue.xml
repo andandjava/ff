@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Containers"
+            android:textColor="@color/actionbar_bg"
+            android:textSize="@dimen/big_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/filter_blue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/search_edt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/go_btn"
+            android:background="@drawable/edttxt_border"
+            android:drawableRight="@drawable/search_blue"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Search"
+            android:padding="10dp"
+            android:textSize="@dimen/medium_size" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/go_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@color/hash"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Go"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/medium_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:cacheColorHint="#00000000"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="12dip"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="12dip"
+        android:visibility="visible" />
+
+</RelativeLayout>

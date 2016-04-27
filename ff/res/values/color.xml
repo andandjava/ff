@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_green">#6ea946</color>
+    <color name="green">#016c36</color>
+    <color name="actionbar_bg">#2b5498</color>
+    <color name="drawer_bg">#424242</color>
+    <color name="menu_divider">#535353</color>
+    <color name="hash">#5A5C5C</color>
+    <color name="hint_clr">#797979</color>
+    <color name="dark_hash">#545454</color>
+    <color name="bg_offwhite">#f0f0f0</color>
+    <color name="hash_btn">#505050</color>
+    <color name="light_hash">#808080</color>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rrr"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tv_daydate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.13"
+        android:gravity="center_vertical|left"
+        android:text="11st"
+        android:textColor="#2a5398"
+        android:textSize="@dimen/medium_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_document"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_weight="0.47"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Month"
+            android:textColor="@color/light_green"
+            android:textSize="@dimen/medium_size" />
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:text="Day"
+            android:textColor="@color/light_green"
+            android:textSize="@dimen/medium_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.4"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        android:text="9:10AM"
+        android:textColor="@color/hash"
+        android:textSize="@dimen/medium_size" />
+
+</LinearLayout>
